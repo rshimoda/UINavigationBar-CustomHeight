@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "RDAdjustableNavigationController",
+        "repositoryURL": "https://github.com/rshimoda/RDAdjustableNavigationController",
+        "state": {
+          "branch": "master",
+          "revision": "97ba4f5ed440d6d3f79ffcb857331edbf12d7e90",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		5505DD5C238402C0000FE66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5505DD5A238402C0000FE66B /* Main.storyboard */; };
 		5505DD5E238402C5000FE66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5505DD5D238402C5000FE66B /* Assets.xcassets */; };
 		5505DD61238402C5000FE66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5505DD5F238402C5000FE66B /* LaunchScreen.storyboard */; };
+		5505DD8C2384A00F000FE66B /* RDAdjustableNavigationController in Frameworks */ = {isa = PBXBuildFile; productRef = 5505DD8B2384A00F000FE66B /* RDAdjustableNavigationController */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5505DD8C2384A00F000FE66B /* RDAdjustableNavigationController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = "Navigation Bar Height Test";
+			packageProductDependencies = (
+				5505DD8B2384A00F000FE66B /* RDAdjustableNavigationController */,
+			);
 			productName = "Navigation Bar Height Test";
 			productReference = 5505DD51238402C0000FE66B /* Navigation Bar Height Test.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 5505DD48238402C0000FE66B;
+			packageReferences = (
+				5505DD8A2384A00F000FE66B /* XCRemoteSwiftPackageReference "RDAdjustableNavigationController" */,
+			);
 			productRefGroup = 5505DD52238402C0000FE66B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -336,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5505DD8A2384A00F000FE66B /* XCRemoteSwiftPackageReference "RDAdjustableNavigationController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rshimoda/RDAdjustableNavigationController";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5505DD8B2384A00F000FE66B /* RDAdjustableNavigationController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5505DD8A2384A00F000FE66B /* XCRemoteSwiftPackageReference "RDAdjustableNavigationController" */;
+			productName = RDAdjustableNavigationController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5505DD49238402C0000FE66B /* Project object */;
 }
